@@ -19,7 +19,7 @@ then
 			-e "GROUP_NAME=${GROUP_NAME}" \
 			-v $HOME:/home \
 			--name my-desktop \
-			deasmi-desktop)
+			my-desktop)
     
     sleep 3
 fi
